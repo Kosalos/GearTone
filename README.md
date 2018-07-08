@@ -3,8 +3,10 @@ Algorhythmic music for iPad
 
 A simple noise app to help you break your lease and lose a girl friend.
 
+http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html
+
 Let the computer create a melody with an algorithm!
-This app combines that idea with gears which determine \
+This app combines that idea with gears that determine \
 the relative timing and tone for each note.
 
 1. Click on a gear to give it focus (marked with a star). 
@@ -13,7 +15,12 @@ the relative timing and tone for each note.
 4. Move the gears around to build the tone bank.
 
 The sliders at the bottom affect the music algorithm,\
-where the 't' is the previous note number.
+where the 't' cycles through 0..255
+
+we're using:\
+v  = (t >> param[0] | t | t >> ((t >> param[1]) & 0xF)) * (1 + param[2]) + ((t >> param[3]) % (1 + param[4]));\
+an alternate is:\
+v = (t * (t >> param[0] * (t >> param[1] | t >> param[2]) & (param[3] | (t >> param[4]) * param[5] >> (t & 15) | t >> param[6])));
 
 ![Screenshot](screenshot.png)
 
