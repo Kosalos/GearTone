@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DCE46D91B95380F002C9E51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE46D81B95380F002C9E51 /* AppDelegate.swift */; };
+		1DCE46DB1B95380F002C9E51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE46DA1B95380F002C9E51 /* ViewController.swift */; };
+		1DCE46DE1B95380F002C9E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46DC1B95380F002C9E51 /* Main.storyboard */; };
+		1DCE46E01B95380F002C9E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46DF1B95380F002C9E51 /* Assets.xcassets */; };
+		1DCE46E31B95380F002C9E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46E11B95380F002C9E51 /* LaunchScreen.storyboard */; };
+		1DCE46ED1B953A95002C9E51 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46EC1B953A95002C9E51 /* ground.png */; };
+		1DCE46EF1B953CAB002C9E51 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE46EE1B953CAB002C9E51 /* BoardView.swift */; };
+		1DCE46F21B956A32002C9E51 /* gear3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46F11B956A32002C9E51 /* gear3.png */; };
+		1DCE46F41B956A3C002C9E51 /* gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46F31B956A3C002C9E51 /* gear2.png */; };
+		1DCE46F61B966573002C9E51 /* gear1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46F51B966573002C9E51 /* gear1.png */; };
+		1DCE46F81B9CCAE3002C9E51 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE46F71B9CCAE3002C9E51 /* ControlViewController.swift */; };
+		1DCE47051B9CCFAB002C9E51 /* A_HAT_1.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46F91B9CCFAA002C9E51 /* A_HAT_1.WAV */; };
+		1DCE47061B9CCFAB002C9E51 /* A_TOM_1.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46FA1B9CCFAA002C9E51 /* A_TOM_1.WAV */; };
+		1DCE47071B9CCFAB002C9E51 /* B_SNARE_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46FB1B9CCFAA002C9E51 /* B_SNARE_1.wav */; };
+		1DCE47081B9CCFAB002C9E51 /* choir2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46FC1B9CCFAA002C9E51 /* choir2.wav */; };
+		1DCE47091B9CCFAB002C9E51 /* piano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46FD1B9CCFAA002C9E51 /* piano.wav */; };
+		1DCE470A1B9CCFAB002C9E51 /* tone1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46FE1B9CCFAA002C9E51 /* tone1.wav */; };
+		1DCE470B1B9CCFAB002C9E51 /* tone2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE46FF1B9CCFAA002C9E51 /* tone2.wav */; };
+		1DCE470C1B9CCFAB002C9E51 /* tone4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE47001B9CCFAA002C9E51 /* tone4.wav */; };
+		1DCE470D1B9CCFAB002C9E51 /* tone5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE47011B9CCFAA002C9E51 /* tone5.wav */; };
+		1DCE470E1B9CCFAB002C9E51 /* tone6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE47021B9CCFAA002C9E51 /* tone6.wav */; };
+		1DCE470F1B9CCFAB002C9E51 /* tone7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE47031B9CCFAA002C9E51 /* tone7.wav */; };
+		1DCE47101B9CCFAB002C9E51 /* tone8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE47041B9CCFAA002C9E51 /* tone8.wav */; };
+		1DCE47131B9CCFD1002C9E51 /* Tone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE47111B9CCFD1002C9E51 /* Tone.swift */; };
+		1DCE47141B9CCFD1002C9E51 /* Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE47121B9CCFD1002C9E51 /* Equation.swift */; };
+		1DCE47161B9CCFFA002C9E51 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE47151B9CCFFA002C9E51 /* Model.swift */; };
+		1DCE471B1B9D3BAE002C9E51 /* gear1B.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE47181B9D3BAE002C9E51 /* gear1B.png */; };
+		1DCE471C1B9D3BAE002C9E51 /* gear2B.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE47191B9D3BAE002C9E51 /* gear2B.png */; };
+		1DCE471D1B9D3BAE002C9E51 /* gear3B.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCE471A1B9D3BAE002C9E51 /* gear3B.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DCE46D51B95380F002C9E51 /* GearTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GearTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCE46D81B95380F002C9E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DCE46DA1B95380F002C9E51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1DCE46DD1B95380F002C9E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DCE46DF1B95380F002C9E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DCE46E21B95380F002C9E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DCE46E41B95380F002C9E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DCE46EC1B953A95002C9E51 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		1DCE46EE1B953CAB002C9E51 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		1DCE46F11B956A32002C9E51 /* gear3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear3.png; sourceTree = "<group>"; };
+		1DCE46F31B956A3C002C9E51 /* gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear2.png; sourceTree = "<group>"; };
+		1DCE46F51B966573002C9E51 /* gear1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear1.png; sourceTree = "<group>"; };
+		1DCE46F71B9CCAE3002C9E51 /* ControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		1DCE46F91B9CCFAA002C9E51 /* A_HAT_1.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A_HAT_1.WAV; sourceTree = "<group>"; };
+		1DCE46FA1B9CCFAA002C9E51 /* A_TOM_1.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A_TOM_1.WAV; sourceTree = "<group>"; };
+		1DCE46FB1B9CCFAA002C9E51 /* B_SNARE_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B_SNARE_1.wav; sourceTree = "<group>"; };
+		1DCE46FC1B9CCFAA002C9E51 /* choir2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = choir2.wav; sourceTree = "<group>"; };
+		1DCE46FD1B9CCFAA002C9E51 /* piano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = piano.wav; sourceTree = "<group>"; };
+		1DCE46FE1B9CCFAA002C9E51 /* tone1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone1.wav; sourceTree = "<group>"; };
+		1DCE46FF1B9CCFAA002C9E51 /* tone2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone2.wav; sourceTree = "<group>"; };
+		1DCE47001B9CCFAA002C9E51 /* tone4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone4.wav; sourceTree = "<group>"; };
+		1DCE47011B9CCFAA002C9E51 /* tone5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone5.wav; sourceTree = "<group>"; };
+		1DCE47021B9CCFAA002C9E51 /* tone6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone6.wav; sourceTree = "<group>"; };
+		1DCE47031B9CCFAA002C9E51 /* tone7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone7.wav; sourceTree = "<group>"; };
+		1DCE47041B9CCFAA002C9E51 /* tone8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone8.wav; sourceTree = "<group>"; };
+		1DCE47111B9CCFD1002C9E51 /* Tone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tone.swift; sourceTree = "<group>"; };
+		1DCE47121B9CCFD1002C9E51 /* Equation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Equation.swift; sourceTree = "<group>"; };
+		1DCE47151B9CCFFA002C9E51 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1DCE47181B9D3BAE002C9E51 /* gear1B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear1B.png; sourceTree = "<group>"; };
+		1DCE47191B9D3BAE002C9E51 /* gear2B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear2B.png; sourceTree = "<group>"; };
+		1DCE471A1B9D3BAE002C9E51 /* gear3B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear3B.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DCE46D21B95380F002C9E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DCE46CC1B95380F002C9E51 = {
+			isa = PBXGroup;
+			children = (
+				1DCE46D71B95380F002C9E51 /* GearTone */,
+				1DCE46D61B95380F002C9E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DCE46D61B95380F002C9E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DCE46D51B95380F002C9E51 /* GearTone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DCE46D71B95380F002C9E51 /* GearTone */ = {
+			isa = PBXGroup;
+			children = (
+				1DCE47151B9CCFFA002C9E51 /* Model.swift */,
+				1DCE46DA1B95380F002C9E51 /* ViewController.swift */,
+				1DCE47121B9CCFD1002C9E51 /* Equation.swift */,
+				1DCE46EE1B953CAB002C9E51 /* BoardView.swift */,
+				1DCE46F71B9CCAE3002C9E51 /* ControlViewController.swift */,
+				1DCE47111B9CCFD1002C9E51 /* Tone.swift */,
+				1DCE46DC1B95380F002C9E51 /* Main.storyboard */,
+				1DCE46D81B95380F002C9E51 /* AppDelegate.swift */,
+				1DCE46DF1B95380F002C9E51 /* Assets.xcassets */,
+				1DCE47171B9CD275002C9E51 /* Resources */,
+				1DCE46E11B95380F002C9E51 /* LaunchScreen.storyboard */,
+				1DCE46E41B95380F002C9E51 /* Info.plist */,
+			);
+			path = GearTone;
+			sourceTree = "<group>";
+		};
+		1DCE47171B9CD275002C9E51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DCE46F51B966573002C9E51 /* gear1.png */,
+				1DCE46F31B956A3C002C9E51 /* gear2.png */,
+				1DCE46F11B956A32002C9E51 /* gear3.png */,
+				1DCE47181B9D3BAE002C9E51 /* gear1B.png */,
+				1DCE47191B9D3BAE002C9E51 /* gear2B.png */,
+				1DCE471A1B9D3BAE002C9E51 /* gear3B.png */,
+				1DCE46EC1B953A95002C9E51 /* ground.png */,
+				1DCE46F91B9CCFAA002C9E51 /* A_HAT_1.WAV */,
+				1DCE46FA1B9CCFAA002C9E51 /* A_TOM_1.WAV */,
+				1DCE46FB1B9CCFAA002C9E51 /* B_SNARE_1.wav */,
+				1DCE46FC1B9CCFAA002C9E51 /* choir2.wav */,
+				1DCE46FD1B9CCFAA002C9E51 /* piano.wav */,
+				1DCE46FE1B9CCFAA002C9E51 /* tone1.wav */,
+				1DCE46FF1B9CCFAA002C9E51 /* tone2.wav */,
+				1DCE47001B9CCFAA002C9E51 /* tone4.wav */,
+				1DCE47011B9CCFAA002C9E51 /* tone5.wav */,
+				1DCE47021B9CCFAA002C9E51 /* tone6.wav */,
+				1DCE47031B9CCFAA002C9E51 /* tone7.wav */,
+				1DCE47041B9CCFAA002C9E51 /* tone8.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DCE46D41B95380F002C9E51 /* GearTone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DCE46E71B95380F002C9E51 /* Build configuration list for PBXNativeTarget "GearTone" */;
+			buildPhases = (
+				1DCE46D11B95380F002C9E51 /* Sources */,
+				1DCE46D21B95380F002C9E51 /* Frameworks */,
+				1DCE46D31B95380F002C9E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GearTone;
+			productName = GearTone;
+			productReference = 1DCE46D51B95380F002C9E51 /* GearTone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DCE46CD1B95380F002C9E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Harry Kosalos";
+				TargetAttributes = {
+					1DCE46D41B95380F002C9E51 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 7237X7VY2S;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 1DCE46D01B95380F002C9E51 /* Build configuration list for PBXProject "GearTone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DCE46CC1B95380F002C9E51;
+			productRefGroup = 1DCE46D61B95380F002C9E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DCE46D41B95380F002C9E51 /* GearTone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DCE46D31B95380F002C9E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCE470D1B9CCFAB002C9E51 /* tone5.wav in Resources */,
+				1DCE471D1B9D3BAE002C9E51 /* gear3B.png in Resources */,
+				1DCE47081B9CCFAB002C9E51 /* choir2.wav in Resources */,
+				1DCE46E31B95380F002C9E51 /* LaunchScreen.storyboard in Resources */,
+				1DCE471B1B9D3BAE002C9E51 /* gear1B.png in Resources */,
+				1DCE47101B9CCFAB002C9E51 /* tone8.wav in Resources */,
+				1DCE471C1B9D3BAE002C9E51 /* gear2B.png in Resources */,
+				1DCE470A1B9CCFAB002C9E51 /* tone1.wav in Resources */,
+				1DCE46E01B95380F002C9E51 /* Assets.xcassets in Resources */,
+				1DCE46DE1B95380F002C9E51 /* Main.storyboard in Resources */,
+				1DCE46F61B966573002C9E51 /* gear1.png in Resources */,
+				1DCE47061B9CCFAB002C9E51 /* A_TOM_1.WAV in Resources */,
+				1DCE470F1B9CCFAB002C9E51 /* tone7.wav in Resources */,
+				1DCE470B1B9CCFAB002C9E51 /* tone2.wav in Resources */,
+				1DCE470C1B9CCFAB002C9E51 /* tone4.wav in Resources */,
+				1DCE47051B9CCFAB002C9E51 /* A_HAT_1.WAV in Resources */,
+				1DCE46F41B956A3C002C9E51 /* gear2.png in Resources */,
+				1DCE47091B9CCFAB002C9E51 /* piano.wav in Resources */,
+				1DCE46F21B956A32002C9E51 /* gear3.png in Resources */,
+				1DCE470E1B9CCFAB002C9E51 /* tone6.wav in Resources */,
+				1DCE46ED1B953A95002C9E51 /* ground.png in Resources */,
+				1DCE47071B9CCFAB002C9E51 /* B_SNARE_1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DCE46D11B95380F002C9E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCE47161B9CCFFA002C9E51 /* Model.swift in Sources */,
+				1DCE46EF1B953CAB002C9E51 /* BoardView.swift in Sources */,
+				1DCE46DB1B95380F002C9E51 /* ViewController.swift in Sources */,
+				1DCE46F81B9CCAE3002C9E51 /* ControlViewController.swift in Sources */,
+				1DCE47131B9CCFD1002C9E51 /* Tone.swift in Sources */,
+				1DCE46D91B95380F002C9E51 /* AppDelegate.swift in Sources */,
+				1DCE47141B9CCFD1002C9E51 /* Equation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DCE46DC1B95380F002C9E51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DCE46DD1B95380F002C9E51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DCE46E11B95380F002C9E51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DCE46E21B95380F002C9E51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DCE46E51B95380F002C9E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1DCE46E61B95380F002C9E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DCE46E81B95380F002C9E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7237X7VY2S;
+				INFOPLIST_FILE = GearTone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.GearTone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1DCE46E91B95380F002C9E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7237X7VY2S;
+				INFOPLIST_FILE = GearTone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.GearTone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DCE46D01B95380F002C9E51 /* Build configuration list for PBXProject "GearTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DCE46E51B95380F002C9E51 /* Debug */,
+				1DCE46E61B95380F002C9E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DCE46E71B95380F002C9E51 /* Build configuration list for PBXNativeTarget "GearTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DCE46E81B95380F002C9E51 /* Debug */,
+				1DCE46E91B95380F002C9E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DCE46CD1B95380F002C9E51 /* Project object */;
+}
