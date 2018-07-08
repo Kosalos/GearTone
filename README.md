@@ -22,6 +22,9 @@ v  = (t >> param[0] | t | t >> ((t >> param[1]) & 0xF)) * (1 + param[2]) + ((t >
 an alternate is:\
 v = (t * (t >> param[0] * (t >> param[1] | t >> param[2]) & (param[3] | (t >> param[4]) * param[5] >> (t & 15) | t >> param[6])));
 
+I'm old enough to remember writing assembly language for the TRS-80 so that it 'played music' as\
+static on a nearby radio tuned between stations.  This is a step up from that.
+
 ![Screenshot](screenshot.png)
 
 
